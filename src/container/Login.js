@@ -40,7 +40,7 @@ function Login() {
 
   const getSpotifyLogin = () => {
     const state = Date.now().toString();
-    const clientId = 'fd73f7dfe7594d4b909b8421e7606e82';
+    const clientId = '5fd8b4c8b31b405691e59eaa5ee30a46';
     return `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=http://localhost:3000/&state=${state}&scope=${config.SPOTIFY_SCOPE}`;
   }
 
