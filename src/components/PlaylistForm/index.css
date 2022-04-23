@@ -1,0 +1,26 @@
+.createPlaylistForm  {
+  color: white;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+}
+
+.createPlaylistForm h2{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.createPlaylistForm label{
+  color: white;
+  margin: 5px 20px;
+  border-radius: 8px;
+}
+
+.playlistAction{
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
